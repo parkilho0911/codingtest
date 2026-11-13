@@ -17,7 +17,7 @@ for test_case in range(1, t+1):
             if a[j][k] == 2:
                 x = j
                 y = k
-
+ 
     visited = [] # 방문을 확인하는 리스트
     for l in range(n):
         visited.append([False]*n)
